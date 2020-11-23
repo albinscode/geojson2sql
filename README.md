@@ -20,13 +20,13 @@ It can fetch geojson data from url or from file.
 Here is an example from a test file.
 
 ~~~
-node main.js -g ./test/minimal.json
+node index.js -g ./test/minimal.json
 ~~~
 
 Will give the following output:
 
 ~~~
-INSERT INTO mytable (codeinsee, nom, geom, departement, id) VALUES ('69381', 'LYON 1', st_transform('SRID=4171;MULTIPOLYGON(((4.830494 45.764543999057146,4.830494 45.764543999057146)))', 2154), 69, 1)
+INSERT INTO commune (codeinsee, libelle, polygon, departement_id, id) VALUES ('69381', 'LYON 1', st_transform('SRID=4171;MULTIPOLYGON(((4.830494 45.764543999057146,4.830494 45.764543999057146)))', 2154), 69, 974000026);
 ~~~
 
 Note: the geometry is buggy (not well terminated) for the needs of basic testing.
