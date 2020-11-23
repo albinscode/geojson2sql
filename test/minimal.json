@@ -1,0 +1,38 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.830494,
+                            45.764543999057146
+                        ],
+                        [
+                            4.830494,
+                            45.764543999057146
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "gid": 1,
+                "gml_id": "adr_voie_lieu.adrarrond.1",
+                "insee": "69381",
+                "libofficiel": "Lyon 1er Arrondissement",
+                "nom": "LYON 1ER",
+                "nomreduit": "LYON 1"
+            },
+            "type": "Feature"
+        }
+    ],
+    "name": "ms:adr_voie_lieu.adrarrond",
+    "type": "FeatureCollection"
+}

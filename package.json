@@ -1,0 +1,17 @@
+{
+  "name": "dbjson2sql",
+  "version": "0.0.1",
+  "description": "Small utility script to generate sql insertion requests from a geojson file/url",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "albinscode@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.21.0",
+    "commander": "6.2.0",
+    "log4js": "6.3.0",
+    "mocha": "8.2.1"
+  }
+}

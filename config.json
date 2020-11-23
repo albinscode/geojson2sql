@@ -1,0 +1,22 @@
+{
+    "sqlTableName": "commune",
+    "geometryColumn": "polygon",
+    "geometrySridFrom": "4171",
+    "geometrySridTo": "2154",
+    "columns": {
+        "insee": "codeinsee",
+        "nomreduit": "libelle"
+    },
+    "addedColumns": [
+        {
+            "name": "departement_id",
+            "mode": "fixed",
+            "value": 69
+        },
+        {
+            "name": "id",
+            "mode": "increment",
+            "value": 974000026
+        }
+    ]
+}
