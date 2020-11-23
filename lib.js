@@ -80,7 +80,7 @@ function generateSql(json, options) {
             .map(elt => typeof elt === 'number' || elt.indexOf('st_') > -1 ? elt : `'${elt}'`)
             .join(', ')
 
-        return `INSERT INTO ${options.sqlTableName} (${columns}) VALUES (${values})`
+        return `INSERT INTO ${options.sqlTableName} (${columns}) VALUES (${values});`
     })
 }
 
